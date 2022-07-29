@@ -1,0 +1,24 @@
+//Font
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+//Colors:
+$primary: #84649C;      
+$secondary: #4D2B66;      
+$info: #C9B313;      
+
+//Links
+$nav-link-color: #C9B313;
+
+//badge
+$badge-padding-y: .30em;
+$badge-padding-x: .50em;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.translate-middle-badge {
+    transform: translate(-100%, -50%) !important;
+}
